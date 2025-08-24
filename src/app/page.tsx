@@ -239,12 +239,12 @@ export default function RevaWebsite() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            <a
+            {/* <a
               href="#join-us"
               className="rounded-2xl transition-all duration-150 ease-in-out bg-blue-600 hover:bg-black w-[500px] hover:text-blue-600 text-white px-8 py-4 text-sm font-semibold group"
             >
               Join Us Now &gt;
-            </a>
+            </a> */}
           </motion.div>
         </div>
       </section>
@@ -562,7 +562,7 @@ export default function RevaWebsite() {
       </AnimatedSection>
 
       {/* Join Us Section */}
-      <section id="join-us" className=" h-[100px]"></section>
+      {/* <section id="join-us" className=" h-[100px]"></section>
       <AnimatedSection className="py-20 bg-gradient-to-r from-blue-300 to-white/50">
         <div className="container mx-auto px-4 text-center">
           <motion.div
@@ -615,7 +615,7 @@ export default function RevaWebsite() {
             </Card>
           </motion.div>
         </div>
-      </AnimatedSection>
+      </AnimatedSection> */}
 
       {/* Footer */}
       <section id="contacts" className="h-[100px] text-center text-5xl mt-10">
