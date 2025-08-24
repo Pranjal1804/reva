@@ -29,6 +29,9 @@ importers:
       posthog-js:
         specifier: ^1.260.2
         version: 1.260.2
+      posthog-node:
+        specifier: ^5.7.0
+        version: 5.7.0
       react:
         specifier: 19.1.0
         version: 19.1.0
@@ -263,6 +266,9 @@ packages:
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
+
+  '@posthog/core@1.0.0':
+    resolution: {integrity: sha512-gquQld+duT9DdzLIFoHZkUMW0DZOTSLCtSjuuC/zKFz65Qecbz9p37DHBJMkw0dCuB8Mgh2GtH8Ag3PznJrP3g==}
 
   '@radix-ui/react-compose-refs@1.1.2':
     resolution: {integrity: sha512-z4eqJvfiNnFMHIIvXP3CY57y2WJs5g2v3X0zm9mEJkrkNv4rDxu+sg9Jh8EkXyeqBkB7SOcboo9dMVqhyrACIg==}
@@ -595,6 +601,10 @@ packages:
       rrweb-snapshot:
         optional: true
 
+  posthog-node@5.7.0:
+    resolution: {integrity: sha512-6J1AIZWtbr2lEbZOO2AzO/h1FPJjUZM4KWcdaL2UQw7FY8J7VNaH3NiaRockASFmglpID7zEY25gV/YwCtuXjg==}
+    engines: {node: '>=20'}
+
   preact@10.27.1:
     resolution: {integrity: sha512-V79raXEWch/rbqoNc7nT9E4ep7lu+mI3+sBmfRD4i1M73R3WLYcCtdI0ibxGVf4eQL8ZIz2nFacqEC+rmnOORQ==}
 
@@ -817,6 +827,8 @@ snapshots:
 
   '@next/swc-win32-x64-msvc@15.4.1':
     optional: true
+
+  '@posthog/core@1.0.0': {}
 
   '@radix-ui/react-compose-refs@1.1.2(@types/react@19.1.8)(react@19.1.0)':
     dependencies:
@@ -1092,6 +1104,10 @@ snapshots:
       fflate: 0.4.8
       preact: 10.27.1
       web-vitals: 4.2.4
+
+  posthog-node@5.7.0:
+    dependencies:
+      '@posthog/core': 1.0.0
 
   preact@10.27.1: {}
 
